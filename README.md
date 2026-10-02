@@ -285,3 +285,27 @@ normal_traffic.pcapng
 The .pcapng file contains the captured packets and can be reopened later for analysis.
 
 <img width="912" height="710" alt="image" src="https://github.com/user-attachments/assets/3e8526d0-fd87-4e7d-b767-fbe76432e9ab" />
+
+
+## STEP 12 — TCP Analysis
+
+In the Wireshark display-filter bar, enter:
+
+tcp
+
+For TCP SYN packets:
+
+tcp.flags.syn == 1
+
+For initial SYN packets:
+
+tcp.flags.syn == 1 && tcp.flags.ack == 0
+
+### Description:
+
+TCP analysis helps you understand connection establishment and communication between hosts.
+
+<img width="996" height="663" alt="Screenshot 2026-10-02 192145" src="https://github.com/user-attachments/assets/432335c3-8899-4213-98ac-2b6e1cf4f23d" />
+
+<img width="992" height="663" alt="Screenshot 2026-10-02 192231" src="https://github.com/user-attachments/assets/04db5479-30e0-4d4c-a01d-72a7a84691a7" />
+

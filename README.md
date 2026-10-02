@@ -208,6 +208,80 @@ Custom colors make different protocols easier to recognize during packet analysi
 
 <img width="1004" height="663" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/e3c80d72-45df-4b40-97b5-2e4644029eb9" />
 
-
 <img width="992" height="663" alt="image" src="https://github.com/user-attachments/assets/0c414346-8707-4128-8d09-6680cd1f8d28" />
 
+
+## STEP 8 — Create a Packet Capture
+
+Start capturing on your active interface.
+
+While Wireshark is capturing, generate normal traffic from your own Windows computer.
+
+Open Command Prompt.
+
+Run:
+
+ping 8.8.8.8
+
+Let it run for approximately 10 seconds.
+
+Press:
+
+Ctrl + C
+
+### Description:
+
+The ping command generates ICMP Echo Request and Echo Reply packets that can be analyzed in Wireshark.
+
+<img width="980" height="515" alt="Screenshot 2026-10-02 184818" src="https://github.com/user-attachments/assets/72ec9f4b-8c58-49fb-b05a-f3e49cb4dcf0" />
+
+<img width="994" height="663" alt="image" src="https://github.com/user-attachments/assets/7373b633-785a-45bd-9e70-77f71858f4e6" />
+
+
+## STEP 9 — Generate DNS Traffic
+
+Open Command Prompt and run:
+
+nslookup example.com
+
+You can also open a few normal websites in your browser.
+
+### Description:
+
+DNS traffic shows how your computer requests the IP address associated with a domain name.
+
+<img width="981" height="515" alt="image" src="https://github.com/user-attachments/assets/66073a02-1a4c-400c-80a6-7332ca59758e" />
+
+<img width="1000" height="662" alt="image" src="https://github.com/user-attachments/assets/2464391e-a544-4f0b-98b5-c9a3670f7f94" />
+
+
+## STEP 10 — Stop the Capture
+
+Return to Wireshark and click the red Stop button.
+
+### Description:
+
+Stopping the capture allows you to analyze the packets collected during the test.
+
+<img width="999" height="663" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/5d0c88a0-1a4a-47b9-a4f1-ada051bb09ac" />
+
+
+## STEP 11 — Save the Capture
+
+Go to:
+
+File → Save As
+
+Create:
+
+captures
+
+Save the file as:
+
+normal_traffic.pcapng
+
+### Description:
+
+The .pcapng file contains the captured packets and can be reopened later for analysis.
+
+<img width="912" height="710" alt="image" src="https://github.com/user-attachments/assets/3e8526d0-fd87-4e7d-b767-fbe76432e9ab" />

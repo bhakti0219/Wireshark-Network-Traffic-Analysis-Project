@@ -1,8 +1,10 @@
 # Wireshark-Network-Traffic-Analysis-Project
 
+
 ## 1. Introduction
 
 Wireshark is a network packet analyzer used to capture, inspect, and analyze network traffic. This project demonstrates Wireshark installation, configuration, packet capture, display filters, custom coloring, protocol analysis, and basic security analysis.
+
 
 ## 2. What is Wireshark?
 
@@ -16,3 +18,43 @@ Wireshark is an open-source network protocol analyzer that captures network pack
 - Investigate suspicious traffic
 - Identify communication between systems
 - Support security investigations
+
+
+## 3. Project Objectives
+
+By completing this project, you will demonstrate:
+
+- Wireshark installation on Windows
+- Network-interface selection
+- Custom Wireshark layout
+- Custom packet-coloring rules
+- Display filters
+- TCP/UDP analysis
+- DNS analysis
+- HTTP/HTTPS analysis
+- ICMP analysis
+- Packet capture and .pcapng files
+- Basic security analysis
+- GitHub documentation
+
+
+## 4. Requirements
+
+- Software
+- Windows 10/11
+- Wireshark
+- Web browser
+- Command Prompt
+
+
+## STEP 1 — Install Wireshark
+
+Download and install Wireshark for Windows from the official site:
+
+[Wireshark official website](https://www.wireshark.org/?utm_source=chatgpt.com)
+
+During installation, make sure Npcap is selected when the installer offers it.
+
+### Description :
+
+Npcap allows Wireshark on Windows to capture packets from network interfaces.

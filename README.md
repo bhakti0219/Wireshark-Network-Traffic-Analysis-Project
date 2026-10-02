@@ -153,9 +153,9 @@ Go to:
 
 Choose a layout where you can clearly see:
 
-Packet List
-Packet Details
-Packet Bytes
+- Packet List
+- Packet Details
+- Packet Bytes or diagram
 
 Click:
 
@@ -164,3 +164,49 @@ Apply → OK
 ### Description:
 
 A customized layout makes packet investigation easier by keeping the important packet information visible.
+
+<img width="998" height="674" alt="image" src="https://github.com/user-attachments/assets/72e20a7b-fcaa-42b2-bdf2-5bb7e1c9ce5f" />
+
+<img width="997" height="667" alt="image" src="https://github.com/user-attachments/assets/f38d6d37-b8db-4ba4-a8dc-57d72cda9bbf" />
+
+
+## STEP 7 — Configure Custom Packet Colors
+
+Go to:
+
+#### View → Coloring Rules
+
+Wireshark already provides several default coloring rules.
+
+Click + to create your own.
+
+For example:
+
+### TCP
+tcp
+
+### UDP
+udp
+
+### DNS
+dns
+
+### HTTP
+http
+
+### ICMP
+icmp
+
+Choose a different background/text color for each rule.
+
+### Description:
+
+Custom colors make different protocols easier to recognize during packet analysis.
+
+
+<img width="998" height="661" alt="image" src="https://github.com/user-attachments/assets/b5263ddf-a23f-44cb-8ce0-d070f5d7be3b" />
+
+<img width="1004" height="663" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/e3c80d72-45df-4b40-97b5-2e4644029eb9" />
+
+<img width="992" height="663" alt="image" src="https://github.com/user-attachments/assets/0c414346-8707-4128-8d09-6680cd1f8d28" />
+

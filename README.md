@@ -143,3 +143,24 @@ Shows the raw packet data in hexadecimal and ASCII.
 These panes allow you to move from a high-level packet view to detailed protocol information.
 
 <img width="997" height="685" alt="image" src="https://github.com/user-attachments/assets/86d843c6-3e5b-402b-92c1-fb16f01c9506" />
+
+
+## STEP 6 — Customize the Layout
+
+Go to:
+
+##### Edit → Preferences → Appearance → Layout
+
+Choose a layout where you can clearly see:
+
+Packet List
+Packet Details
+Packet Bytes
+
+Click:
+
+Apply → OK
+
+### Description:
+
+A customized layout makes packet investigation easier by keeping the important packet information visible.

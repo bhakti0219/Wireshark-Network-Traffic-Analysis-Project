@@ -61,5 +61,19 @@ Npcap allows Wireshark on Windows to capture packets from network interfaces.
 <img width="565" height="432" alt="wrsrk 1" src="https://github.com/user-attachments/assets/5c475e80-66f8-48a0-b2c7-229cc0f0f7f4" /><img width="518" height="401" alt="wrsrk 3" src="https://github.com/user-attachments/assets/32b4763f-0043-46fc-a66f-9a4c8959779c" />
 
 
+## STEP 2 — Open Wireshark
 
-Npcap allows Wireshark on Windows to capture packets from network interfaces.
+Open:
+
+Start → Wireshark
+
+You will see available network interfaces such as:
+
+Wi-Fi
+Ethernet
+
+You will also see traffic graphs beside active interfaces.
+
+### Description:
+
+The Wireshark home screen shows the network interfaces available for packet capture.

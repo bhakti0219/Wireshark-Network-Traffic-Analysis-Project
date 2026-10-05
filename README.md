@@ -388,7 +388,79 @@ HTTP traffic can be inspected when the captured communication uses unencrypted H
 
 <img width="995" height="678" alt="image" src="https://github.com/user-attachments/assets/c5d996f7-3922-4e15-baaa-b8dfe88dbac4" />
 
-<img width="910" height="707" alt="image" src="https://github.com/user-attachments/assets/6116a842-0d75-4d6b-a268-f7c0f1c58c70" />
+### Follow Stream: 
+
+The "Follow Stream" feature in Wireshark is a powerful analysis tool that reassembles individual network packets into a single, continuous, human-readable data flow between a client and a server
+
 
 <img width="987" height="666" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/1a852c82-5ad3-43f0-90c1-6f70b2c5f4b8" />
 
+
+- GET: Used to request/read data from a server. Data is usually sent in the URL.
+- POST: Used to send/submit data to a server. Data is usually sent in the request body.
+
+Example:
+
+GET → Open/search for a webpage
+POST → Submit a login form or registration form
+
+<img width="910" height="707" alt="image" src="https://github.com/user-attachments/assets/6116a842-0d75-4d6b-a268-f7c0f1c58c70" />
+
+
+
+## STEP 17 — HTTPS/TLS Analysis
+
+Use:
+
+tls
+
+### Description:
+
+HTTPS traffic is encrypted using TLS. Wireshark can still show useful information such as IP addresses, ports, and TLS handshake details.
+
+
+<img width="994" height="676" alt="image" src="https://github.com/user-attachments/assets/de00a9fa-81ea-4301-a997-3a9edb7eb2ca" />
+
+
+## STEP 18 — IP Address Analysis
+
+Use:
+
+ip
+
+To filter traffic involving a particular IP:
+
+ip.addr == 192.168.1.10
+
+
+### Description:
+
+IP filtering helps isolate communication involving a specific host.
+
+<img width="994" height="676" alt="image" src="https://github.com/user-attachments/assets/2d7a808f-5958-4759-a3a7-bff94645c938" />
+
+
+## STEP 19 — Port Analysis
+
+
+### HTTP
+
+tcp.port == 80
+
+### HTTPS
+
+tcp.port == 443
+
+### DNS
+
+udp.port == 53
+
+### SSH
+
+tcp.port == 22
+
+### Description:
+
+Port filtering helps identify which network services are communicating.
+
+<img width="994" height="676" alt="image" src="https://github.com/user-attachments/assets/0905e5c9-add9-4a6a-aa72-69a5efa439cd" />

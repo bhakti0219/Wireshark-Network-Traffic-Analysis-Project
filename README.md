@@ -386,4 +386,9 @@ http
 
 HTTP traffic can be inspected when the captured communication uses unencrypted HTTP.
 
-<img width="992" height="698" alt="image" src="https://github.com/user-attachments/assets/276b2c74-3b88-473d-99d1-63a929c19d51" />
+<img width="995" height="678" alt="image" src="https://github.com/user-attachments/assets/c5d996f7-3922-4e15-baaa-b8dfe88dbac4" />
+
+<img width="910" height="707" alt="image" src="https://github.com/user-attachments/assets/6116a842-0d75-4d6b-a268-f7c0f1c58c70" />
+
+<img width="987" height="666" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/1a852c82-5ad3-43f0-90c1-6f70b2c5f4b8" />
+

@@ -372,3 +372,18 @@ Echo Reply
 ICMP is used for network diagnostics, and the Windows ping command uses ICMP Echo messages.
 
 
+<img width="996" height="729" alt="image" src="https://github.com/user-attachments/assets/39267a4d-6878-430c-81e8-48a69f56ca3c" />
+
+
+
+## STEP 16 — HTTP Analysis
+
+Use:
+
+http
+
+### Description:
+
+HTTP traffic can be inspected when the captured communication uses unencrypted HTTP.
+
+<img width="992" height="698" alt="image" src="https://github.com/user-attachments/assets/276b2c74-3b88-473d-99d1-63a929c19d51" />
